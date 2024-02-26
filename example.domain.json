@@ -1,0 +1,22 @@
+{
+    "description": "Resume",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "omer",
+
+    "owner": {
+        "repo": "https://github.com/Omermatin/repo",
+        "email": "omermatin22@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "omer.com",
+        "MX": ["mx1.omer.com", "mx2.omer.com"],
+        "NS": ["ns1.omer.com", "ns2.omer.com"],
+        "TXT": ["omer_verification=1234567890"]
+    },
+
+    "proxied": false
+}
